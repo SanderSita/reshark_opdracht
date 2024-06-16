@@ -4,6 +4,7 @@
 ##### windows
 ```bash
 cd  backend
+copy env.example .env
 python  -m  venv  .venv
 .venv\Scripts\activate
 pip  install  -r  requirements.txt
@@ -14,6 +15,7 @@ python  manage.py  runserver
 ##### macOS
 ```bash
 cd backend
+cp env.example .env
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
